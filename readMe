@@ -1,0 +1,19 @@
+This framework has been designed with capabilities for executing both UI and API tests. It has been generated using maven quickstart archetype.
+Framework is using Selenium for UI tests and Apache HTTP Client with wrappers for API tests.
+Test runner in this framework is TestNG.
+
+Framework tooling also includes WebDriverManager for accurate driver handling and a JSON parser for handling the API responses.
+See pom.xml for all other dependencies.
+
+Requirements:
+1. Maven 3.x
+2. Java 11
+
+To run tests, navigate to the project folder where the 'pom.xml' lives and type:
+- 'mvn test'
+
+Ideas for next steps:
+- add Allure reporting support
+- parallel test execution
+- implement provider for SL4J in classnames
+- multiple test suite files for better testing focus

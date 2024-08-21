@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Suites">
+    <test name="API Tests">
+        <classes>
+            <class name="org.hometest.API.OrderESIMUsingAPI"/>
+        </classes>
+    </test>
+
+    <test name="UI Tests">
+        <classes>
+            <class name="org.hometest.WEB.BuyJapanEsim"/>
+        </classes>
+    </test>
+</suite>
